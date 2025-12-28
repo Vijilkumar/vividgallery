@@ -1,0 +1,27 @@
+import type { AstroInstance } from 'astro';
+import { Github, Instagram } from 'lucide-astro';
+
+export interface SocialLink {
+	name: string;
+	url: string;
+	icon: AstroInstance;
+}
+
+export default {
+	title: 'VV',
+	favicon: 'favicon.ico',
+	owner: 'Vijilkumar',
+	profileImage: 'profile.webp',
+	socialLinks: [
+		{
+			name: 'GitHub',
+			url: 'https://github.com/vijilkumar/vividgallery',
+			icon: Github,
+		} as SocialLink,
+		{
+			name: 'Instagram',
+			url: 'https://www.instagram.com',
+			icon: Instagram,
+		} as SocialLink,
+	],
+};
