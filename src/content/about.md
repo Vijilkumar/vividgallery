@@ -14,5 +14,3 @@ By profession, I am an IT professional, and at heart, a passionate traveler. Hol
 
 Email : vijilkmrv2@gmail.com
 Phone : +1 5879738926
-
-
