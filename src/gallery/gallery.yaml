@@ -65,6 +65,21 @@ images:
       collections:
         - nature
     exif: {}
+  - path: nature/nature-11.jpg
+    meta:
+      title: Nature scene 11
+      description: A serene view of a deer amidst a lush forest, embodying the tranquility of nature.
+      collections:
+        - featured
+        - nature
+    exif: {}
+  - path: nature/nature-12.jpg
+    meta:
+      title: Nature scene 12
+      description: A serene view of a deer amidst a lush forest, embodying the tranquility of nature.
+      collections:
+        - nature
+    exif: {}
   - path: street/stree-1.jpg
     meta:
       title: Street photography 1
@@ -86,5 +101,6 @@ images:
       title: Nature 1
       description: ''
       collections:
+        - featured
         - nature
     exif: {}
