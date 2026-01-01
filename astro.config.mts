@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://www.vividgallery.gallery',
   base: '/',
+  trailingSlash: 'always', // Forces a consistent URL style
   build: {
     format: 'directory',   // Creates /about/index.html
   },
