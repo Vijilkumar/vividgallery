@@ -9,7 +9,7 @@ export interface SocialLink {
 
 export default {
 	title: 'VV',
-	favicon: 'favicon.ico',
+	favicon: 'vividgallery.ico',
 	owner: 'Vijilkumar',
 	profileImage: 'profile.webp',
 	socialLinks: [

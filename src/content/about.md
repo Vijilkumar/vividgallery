@@ -12,5 +12,5 @@ in a way that allows viewers to see the world through a different lens.
 
 By profession, I am an IT professional, and at heart, a passionate traveler. Holding a camera in my hand gives me the confidence to explore more, observe deeply, and connect with the world around me. Through my photography, I strive to capture fleeting moments and present them in a way that invites viewers to see the world through a different lens.
 
-Email : vijilkmrv2@gmail.com
+Email : info@vividgallery.gallery
 Phone : +1 5879738926
