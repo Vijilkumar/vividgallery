@@ -1,6 +1,8 @@
 collections:
   - id: nature
     name: Nature
+  - id: events
+    name: Events
   - id: travel
     name: Travel
   - id: street
@@ -43,21 +45,6 @@ images:
       collections:
         - nature
     exif: {}
-  - path: nature/L1002174.jpg
-    meta:
-      title: Travel scene 6
-      description: null
-      collections:
-        - featured
-        - nature
-    exif:
-      captureDate: 2025-03-27T10:35:21.000Z
-      fNumber: 8
-      focalLength: 28
-      iso: 100
-      model: LEICA Q3
-      shutterSpeed: 1250
-      lensModel: SUMMILUX 1:1.7/28 ASPH.
   - path: nature/nature-10.jpg
     meta:
       title: Nature scene 10
@@ -80,9 +67,16 @@ images:
       collections:
         - nature
     exif: {}
-  - path: street/stree-1.jpg
+  - path: street/street-1.jpg
     meta:
       title: Street photography 1
+      description: Urban scene capturing the essence of city life.
+      collections:
+        - street
+    exif: {}
+  - path: street/street-2.jpg
+    meta:
+      title: Street photography 2
       description: Urban scene capturing the essence of city life.
       collections:
         - featured
@@ -102,5 +96,96 @@ images:
       description: ''
       collections:
         - featured
+        - nature
+    exif: {}
+  - path: nature/nature-4.jpg
+    meta:
+      title: Nature scene 4
+      description: Captivating natural landscape showcasing environmental beauty.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-13.jpg
+    meta:
+      title: Nature scene 13
+      description: Stunning natural vista capturing the essence of wilderness.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-14.jpg
+    meta:
+      title: Nature scene 14
+      description: Breathtaking natural landscape displaying environmental splendor.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-15.jpg
+    meta:
+      title: Nature scene 15
+      description: Serene natural view embodying the tranquility of nature.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-16.jpg
+    meta:
+      title: Nature scene 16
+      description: Majestic natural landscape showcasing raw environmental beauty.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-17.JPG
+    meta:
+      title: Nature scene 17
+      description: Beautiful natural vista capturing environmental wonder.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-18.jpg
+    meta:
+      title: Nature scene 18
+      description: Tranquil natural landscape reflecting the peace of the outdoors.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-19.jpg
+    meta:
+      title: Nature scene 19
+      description: Enchanting natural scene highlighting the beauty of nature.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-20.jpg
+    meta:
+      title: Nature scene 20
+      description: Impressive natural landscape portraying environmental majesty.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-21.JPG
+    meta:
+      title: Nature scene 21
+      description: Serene natural view capturing the essence of wilderness.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-22.jpg
+    meta:
+      title: Nature scene 22
+      description: Breathtaking natural vista showcasing natural wonders.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-23.jpg
+    meta:
+      title: Nature scene 23
+      description: Stunning natural landscape displaying environmental beauty.
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-24.jpg
+    meta:
+      title: Nature scene 24
+      description: Majestic natural scene embodying the tranquility of nature.
+      collections:
         - nature
     exif: {}
