@@ -189,3 +189,157 @@ images:
       collections:
         - nature
     exif: {}
+  - path: events/event-1.jpg
+    meta:
+      title: Event scene 1
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-2.jpg
+    meta:
+      title: Event scene 2
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-3.jpg
+    meta:
+      title: Event scene 3
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-4.jpg
+    meta:
+      title: Event scene 4
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-5.jpg
+    meta:
+      title: Event scene 5
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-6.jpg
+    meta:
+      title: Event scene 6
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-7.jpg
+    meta:
+      title: Event scene 7
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-8.jpg
+    meta:
+      title: Event scene 8
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-9.jpg
+    meta:
+      title: Event scene 9
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-10.jpg
+    meta:
+      title: Event scene 10
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-11.jpg
+    meta:
+      title: Event scene 11
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-12.jpg
+    meta:
+      title: Event scene 12
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-13.jpg
+    meta:
+      title: Event scene 13
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-14.jpg
+    meta:
+      title: Event scene 14
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-15.jpg
+    meta:
+      title: Event scene 15
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-16.jpg
+    meta:
+      title: Event scene 16
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-17.jpg
+    meta:
+      title: Event scene 17
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-18.jpg
+    meta:
+      title: Event scene 18
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-19.jpg
+    meta:
+      title: Event scene 19
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-20.jpg
+    meta:
+      title: Event scene 20
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-21.jpg
+    meta:
+      title: Event scene 21
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-22.jpg
+    meta:
+      title: Event scene 22
+      description: null
+      collections:
+        - events
+    exif: {}
