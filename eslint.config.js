@@ -30,6 +30,24 @@ export default [
 			...ts.configs.recommended.rules,
 		},
 	},
+	{
+		files: ['**/*.mts'],
+		languageOptions: {
+			parser: tsParser,
+			parserOptions: {
+				sourceType: 'module',
+			},
+			globals: {
+				...globals.node,
+			},
+		},
+		plugins: {
+			'@typescript-eslint': ts,
+		},
+		rules: {
+			...ts.configs.recommended.rules,
+		},
+	},
 
 	{
 		files: ['**/*.astro'],
