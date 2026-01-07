@@ -3,22 +3,23 @@ collections:
     name: Nature
   - id: events
     name: Events
-  - id: travel
-    name: Travel
   - id: street
     name: Street
+  - id: travel
+    name: Travel
+
 images:
   - path: nature/nature-2.jpg
     meta:
       title: Nature scene 2
-      description: Serene natural landscape capturing the essence of wilderness.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-3.jpg
     meta:
       title: Nature scene 3
-      description: Breathtaking natural vista showcasing environmental beauty.
+      description: null
       collections:
         - featured
         - nature
@@ -26,14 +27,14 @@ images:
   - path: nature/nature-5.jpg
     meta:
       title: Nature scene 5
-      description: Natural landscape showing the raw beauty of the environment.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-7.jpg
     meta:
       title: Nature scene 7
-      description: Stunning natural landscape capturing environmental beauty.
+      description: null
       collections:
         - featured
         - nature
@@ -41,21 +42,21 @@ images:
   - path: nature/nature-8.jpg
     meta:
       title: Nature scene 8
-      description: Beautiful natural vista showcasing environmental wonder.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-10.jpg
     meta:
       title: Nature scene 10
-      description: Majestic natural landscape displaying environmental splendor.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-11.jpg
     meta:
       title: Nature scene 11
-      description: A serene view of a deer amidst a lush forest, embodying the tranquility of nature.
+      description: null
       collections:
         - featured
         - nature
@@ -63,37 +64,37 @@ images:
   - path: nature/nature-12.jpg
     meta:
       title: Nature scene 12
-      description: A serene view of a deer amidst a lush forest, embodying the tranquility of nature.
+      description: null
       collections:
         - nature
     exif: {}
   - path: street/street-1.jpg
     meta:
       title: Street photography 1
-      description: Urban scene capturing the essence of city life.
+      description: null
       collections:
         - street
     exif: {}
   - path: street/street-2.jpg
     meta:
       title: Street photography 2
-      description: Urban scene capturing the essence of city life.
+      description: null
       collections:
         - featured
         - street
     exif: {}
-  - path: travel/travel-1.jpg
+  - path: nature/nature-25.jpg
     meta:
-      title: Travel scene 1
-      description: Journey through remarkable destinations.
+      title: Nature scene 25
+      description: null
       collections:
         - featured
-        - travel
+        - nature
     exif: {}
   - path: nature/nature-1.jpg
     meta:
       title: Nature 1
-      description: ''
+      description: null
       collections:
         - featured
         - nature
@@ -101,91 +102,91 @@ images:
   - path: nature/nature-4.jpg
     meta:
       title: Nature scene 4
-      description: Captivating natural landscape showcasing environmental beauty.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-13.jpg
     meta:
       title: Nature scene 13
-      description: Stunning natural vista capturing the essence of wilderness.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-14.jpg
     meta:
       title: Nature scene 14
-      description: Breathtaking natural landscape displaying environmental splendor.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-15.jpg
     meta:
       title: Nature scene 15
-      description: Serene natural view embodying the tranquility of nature.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-16.jpg
     meta:
       title: Nature scene 16
-      description: Majestic natural landscape showcasing raw environmental beauty.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-17.JPG
     meta:
       title: Nature scene 17
-      description: Beautiful natural vista capturing environmental wonder.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-18.jpg
     meta:
       title: Nature scene 18
-      description: Tranquil natural landscape reflecting the peace of the outdoors.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-19.jpg
     meta:
       title: Nature scene 19
-      description: Enchanting natural scene highlighting the beauty of nature.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-20.jpg
     meta:
       title: Nature scene 20
-      description: Impressive natural landscape portraying environmental majesty.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-21.JPG
     meta:
       title: Nature scene 21
-      description: Serene natural view capturing the essence of wilderness.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-22.jpg
     meta:
       title: Nature scene 22
-      description: Breathtaking natural vista showcasing natural wonders.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-23.jpg
     meta:
       title: Nature scene 23
-      description: Stunning natural landscape displaying environmental beauty.
+      description: null
       collections:
         - nature
     exif: {}
   - path: nature/nature-24.jpg
     meta:
       title: Nature scene 24
-      description: Majestic natural scene embodying the tranquility of nature.
+      description: null
       collections:
         - nature
     exif: {}
