@@ -344,3 +344,17 @@ images:
       collections:
         - events
     exif: {}
+  - path: events/event-23.jpg
+    meta:
+      title: Event scene 23
+      description: null
+      collections:
+        - events
+    exif: {}
+  - path: events/event-24.jpg
+    meta:
+      title: Event scene 24
+      description: null
+      collections:
+        - events
+    exif: {}
