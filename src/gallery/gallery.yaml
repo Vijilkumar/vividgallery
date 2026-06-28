@@ -190,6 +190,20 @@ images:
       collections:
         - nature
     exif: {}
+  - path: nature/nature-26.jpg
+    meta:
+      title: Nature scene 26
+      description: Hinton View, Alberta, Canada
+      collections:
+        - nature
+    exif: {}
+  - path: nature/nature-27.jpg
+    meta:
+      title: Nature scene 27
+      description: Peyto Lake, Alberta, Canada
+      collections:
+        - nature
+    exif: {}
   - path: events/event-1.jpg
     meta:
       title: Event scene 1
