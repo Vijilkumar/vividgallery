@@ -71,14 +71,22 @@ images:
   - path: street/street-1.jpg
     meta:
       title: Street photography 1
-      description: null
+      description: Downtown Calgary, Alberta, Canada
       collections:
         - street
     exif: {}
   - path: street/street-2.jpg
     meta:
       title: Street photography 2
-      description: null
+      description: Downtown Calgary, Alberta, Canada
+      collections:
+        - featured
+        - street
+    exif: {}
+  - path: street/street-3.jpg
+    meta:
+      title: Street photography 3
+      description: Jasper Downtown, Alberta, Canada
       collections:
         - featured
         - street
