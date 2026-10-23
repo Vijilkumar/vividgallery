@@ -1,30 +1,43 @@
+
 name: Azure Key Vault POC
 
-on: 
-  workflow_dispatch: # Allows you to run this manually from the Actions tab
-  'push':
+on:
+  workflow_dispatch:
+  push:
     branches:
-      - feature/azure_key # Trigger on push to the feature/azure-key-vault branch
+      - main
+
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
-  fetch-secret:
+  keyvault-test:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Login to Azure
+      - name: Login to Azure using OIDC
         uses: azure/login@v2
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Fetch Secret from Key Vault
-        uses: Azure/get-keyvault-secrets@v1
-        id: kvAction
-        with:
-          keyvault: "gitHubKeysIntegration" 
-          secrets: 'test123abc'
-
-      - name: Prove it works
+      - name: Retrieve secret from Azure Key Vault
+        shell: bash
+        env:
+          KEYVAULT_NAME: ${{ secrets.KEYVAULT_NAME }}
         run: |
-          # GitHub Actions automatically masks secrets in the logs with ***
-          # We will echo it to prove the step ran successfully
-          echo "Successfully fetched the secret!"
-          echo "The secret value is: ${{ steps.kvAction.outputs.MyTestSecret }}"
+          SECRET_VALUE=$(az keyvault secret show \
+            --vault-name "$KEYVAULT_NAME" \
+            --name "test123abc" \
+            --query value \
+            --output tsv) || exit 1
+
+          if [ -z "$SECRET_VALUE" ]; then
+            echo "Secret retrieval failed: empty value."
+            exit 1
+          fi
+
+          echo "::add-mask::$SECRET_VALUE"
+          echo "SUCCESS: Secret retrieved from Azure Key Vault."
