@@ -2,6 +2,9 @@ name: Azure Key Vault POC
 
 on: 
   workflow_dispatch: # Allows you to run this manually from the Actions tab
+  'push':
+    branches:
+      - feature/azure_key # Trigger on push to the feature/azure-key-vault branch
 
 jobs:
   fetch-secret:
@@ -16,8 +19,8 @@ jobs:
         uses: Azure/get-keyvault-secrets@v1
         id: kvAction
         with:
-          keyvault: "YOUR_KEYVAULT_NAME_HERE" 
-          secrets: 'MyTestSecret'
+          keyvault: "gitHubKeysIntegration" 
+          secrets: 'test123abc'
 
       - name: Prove it works
         run: |
