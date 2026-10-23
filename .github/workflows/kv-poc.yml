@@ -1,0 +1,27 @@
+name: Azure Key Vault POC
+
+on: 
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
+
+jobs:
+  fetch-secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Fetch Secret from Key Vault
+        uses: Azure/get-keyvault-secrets@v1
+        id: kvAction
+        with:
+          keyvault: "YOUR_KEYVAULT_NAME_HERE" 
+          secrets: 'MyTestSecret'
+
+      - name: Prove it works
+        run: |
+          # GitHub Actions automatically masks secrets in the logs with ***
+          # We will echo it to prove the step ran successfully
+          echo "Successfully fetched the secret!"
+          echo "The secret value is: ${{ steps.kvAction.outputs.MyTestSecret }}"
